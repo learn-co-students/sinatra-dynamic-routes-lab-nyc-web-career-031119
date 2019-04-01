@@ -1,0 +1,10 @@
+  <% case
+      when params[:operation] == "add"%>
+      <%= @num1 + @num2%>
+  <% when params[:operation] == "subtract"%>
+      <%= @num1 - @num2%>
+  <% when params[:operation] == "multiply"%>
+      <%= @num1 * @num2%>
+  <% when params[:operation] == "divide"%>
+      <%= @num1 / @num2%>
+    <%end%>
